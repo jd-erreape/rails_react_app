@@ -20,7 +20,7 @@ default: &default
 development: &development
   <<: *default
   database: rails_react_app_development
-  password: <%= ENV['RAILS_REACT_APP_DEV_DATABASE_PASSWORD'] || 'abc123' %>
+  password: <%= ENV['RAILS_REACT_APP_DEV_DATABASE_PASSWORD'] || 'root' %>
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
