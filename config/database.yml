@@ -13,13 +13,12 @@ default: &default
   adapter: mysql2
   encoding: utf8mb4
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
-  username: root
-  password: 
   socket: /var/run/mysqld/mysqld.sock
 
 development: &development
   <<: *default
   database: rails_react_app_development
+  username: <%= ENV['RAILS_REACT_APP_DEV_DATABASE_USERNAME'] || 'root' %>
   password: <%= ENV['RAILS_REACT_APP_DEV_DATABASE_PASSWORD'] || 'root' %>
 
 # Warning: The database defined as "test" will be erased and
