@@ -23,4 +23,4 @@ App will be available on `localhost:3000`
 
 App is deployed automatically to Heroku everytime there is a merge to `master` branch and the pipelines succeed.
 
-You can access the app [here]([here](https://jd-rails-react-app.herokuapp.com/))
+You can access the app [here](https://jd-rails-react-app.herokuapp.com/)
