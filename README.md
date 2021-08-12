@@ -16,6 +16,7 @@ Test App that uses Ruby on Rails and React and is deployed automatically to Hero
 - Create and migrate test database with `bundle exec rake db:create && bundle exec rake db:migrate`
 - Run webpack dev server with `./bin/webpack-dev-server`
 - Run rails server with `bundle exec rails s`
+- Seed the DB with the given products using `bundle exec rake db:seed`
 
 App will be available on `localhost:3000`
 
@@ -24,3 +25,5 @@ App will be available on `localhost:3000`
 App is deployed automatically to Heroku everytime there is a merge to `master` branch and the pipelines succeed.
 
 You can access the app [here](https://jd-rails-react-app.herokuapp.com/)
+
+The app has been seeded with the same seeds present in `db/seeds.rb`
