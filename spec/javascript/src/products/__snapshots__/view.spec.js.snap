@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`View component matches snapshot 1`] = `
+<table
+  className="table table-striped table-bordered table-hover"
+>
+  <thead>
+    <tr>
+      <th>
+        Code
+      </th>
+      <th>
+        Name
+      </th>
+      <th>
+        Price
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr
+      key="CD1"
+    >
+      <td>
+        CD1
+      </td>
+      <td>
+        Product1
+      </td>
+      <td>
+        100
+      </td>
+    </tr>
+    <tr
+      key="CD2"
+    >
+      <td>
+        CD2
+      </td>
+      <td>
+        Product2
+      </td>
+      <td>
+        200
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;

@@ -4,7 +4,6 @@
 
 import React from 'react'
 import ReactDOM from 'react-dom'
-import 'bootstrap/dist/css/bootstrap.min.css';
 import App from '../src/app';
 
 typeof document !== 'undefined' && document.addEventListener('DOMContentLoaded', () => {
