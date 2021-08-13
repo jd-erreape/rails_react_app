@@ -4,25 +4,12 @@
 
 import React from 'react'
 import ReactDOM from 'react-dom'
-import PropTypes from 'prop-types'
-
-const Hello = props => (
-  <div>Hello {props.name}!</div>
-)
-
-Hello.defaultProps = {
-  name: 'David'
-}
-
-Hello.propTypes = {
-  name: PropTypes.string
-}
+import 'bootstrap/dist/css/bootstrap.min.css';
+import App from '../src/app';
 
 typeof document !== 'undefined' && document.addEventListener('DOMContentLoaded', () => {
   ReactDOM.render(
-    <Hello name="React" />,
+    <App />,
     document.body.appendChild(document.createElement('div')),
   )
-})
-
-export default Hello;
+});
