@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`View component matches snapshot 1`] = `
+<Fragment>
+  <Navbar
+    bg="light"
+    collapseOnSelect={false}
+    expand="lg"
+    variant="light"
+  >
+    <Container
+      fluid={false}
+    >
+      <NavbarBrand
+        href="#home"
+      >
+        Simple Rails / React App
+      </NavbarBrand>
+    </Container>
+  </Navbar>
+  <Container
+    fluid={false}
+  >
+    <Row>
+      <Col
+        sm={8}
+      >
+        <_default />
+      </Col>
+      <Col
+        sm={4}
+      >
+        sm=4
+      </Col>
+    </Row>
+  </Container>
+</Fragment>
+`;
