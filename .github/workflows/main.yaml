@@ -31,7 +31,13 @@ jobs:
           # runs 'bundle install' and caches installed gems automatically
           bundler-cache: true
 
-      - name: Run tests
+      - name: Install node modules
+        run: yarn
+
+      - name: Run rspec tests
         run: |
           bundle exec rake db:test:prepare
           bundle exec rspec
+
+      - name: Run jest tests
+        run: yarn jest
